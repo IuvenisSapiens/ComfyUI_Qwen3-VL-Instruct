@@ -51,7 +51,7 @@ with the **inputcount** and clicking update.
             return {
                 "type": "video",
                 "video": f"{file_path}",
-                "fps": 1.0,
+                "fps": avg_fps,
             }
         else:
             return None

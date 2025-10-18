@@ -52,7 +52,7 @@ class Qwen3_VQA:
                 ),
                 "max_new_tokens": (
                     "INT",
-                    {"default": 2048, "min": 128, "max": 2048, "step": 1},
+                    {"default": 2048, "min": 128, "max": 256000, "step": 1},
                 ),
                 "min_pixels": (
                     "INT",
